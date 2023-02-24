@@ -1,6 +1,7 @@
 import "./frontpage.css";
 import { Button, ButtonGroup } from '@chakra-ui/react';
 import { Image,Box } from '@chakra-ui/react';
+import Footer from "./footer1.jsx";
 function Homepage(){
 
     return(
@@ -615,15 +616,66 @@ function Homepage(){
 </Box>
             </div>
 <h3 className="h2">Why HealthKart ?</h3>       
-        <div className="guide">
-<div>
-<img src="" alt="" />
-<h4></h4>
-<p></p>
+        <div className="three">
+<div >
+<img src="https://img9.hkrtcdn.com/20791/normal_2079088_o.png" alt="img"  />
+<h4>Wide range of Nutritional products</h4>
+<p>One-stop fitness and health destination</p>
 </div>
-<div></div>
-<div></div>
+<div>
+<img src="https://img3.hkrtcdn.com/20791/normal_2079092_o.png" alt="img"  />
+<h4>100% Original & Authentic</h4>
+<p>Tight control on sourcing and distribution</p>
+</div>
+<div>
+<img src="https://img1.hkrtcdn.com/20791/normal_2079090_o.png" alt="img"  />
+<h4>Guide to Fit and Healthy Lifestyle</h4>
+<p>Your true partner in health & wellness journey</p>
+</div>
         </div>
+        <div className="dual">
+        <div >
+            <img src="https://static1.hkrtcdn.com/hknext/static/media/common/misc/download-App-IMG.svg" alt="cd" />
+        </div>
+        <div>
+            <h1>Download the</h1>
+            <h1>Healthcart Mobile App</h1>
+            <div className="tab">
+                <div className="image">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/misc/app-cart.svg" alt="A" />
+                </div>
+                <div>
+                    <h3>Easier, Faster Shopping</h3>
+                    <p>Get Authentic supplements, Fitness solutions, and a healthy lifestyle</p>
+                </div>
+            </div>
+            <div className="tab">
+                <div className="image">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/misc/app-cart.svg" alt="A" />
+                </div>
+                <div>
+                    <h3>Fuel your Fitness Goals</h3>
+                    <p>Get Authentic supplements, Fitness solutions, and a healthy lifestyle</p>
+                </div>
+            </div>
+            <div className="tab">
+                <div className="image">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/misc/app-tick.svg" alt="A" />
+                </div>
+                <div>
+                    <h3>Get Exclusive App Only Benefits</h3>
+                    <p>Get Authentic supplements, Fitness solutions, and a healthy lifestyle</p>
+                </div>
+            </div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcerr2SWYq1l2OXV-OpH_CFRYP3FLZ9ypRg&usqp=CAU" alt="xy" />
+            </div>
+        </div>
+        
+            
+        
+        </div>
+        <Footer/>
         </div>
         
         </>
