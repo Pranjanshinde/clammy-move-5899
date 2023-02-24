@@ -71,3 +71,40 @@
 .guide{
     
 }
+.three{
+    display: flex;
+    width: 80%;
+    justify-content:space-between;
+    margin: auto;
+}
+
+.three>div{
+width: 28%;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+padding-left: 10px;
+}
+.dual{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dual>div{
+    width: 45%;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+border-radius: 10px;
+margin-bottom: 15px;
+padding-left: 10px;
+padding-bottom: 10px;
+   
+}
+
+.image{
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
