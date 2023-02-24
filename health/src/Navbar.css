@@ -1,0 +1,19 @@
+.lower{
+    display:flex;
+    /* border:2px solid green; */
+    width:"170px";
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    gap: 6px;
+}
+.lower1{
+    display:flex;
+    /* border:2px solid green; */
+    width:"170px";
+    justify-content: center;
+    align-items: center;
+    width: 20%; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 25px;
+}

@@ -1,0 +1,73 @@
+.banner{
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+.banup{
+    text-align: center;
+   background-color: 	#f0f8ff;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20%; */
+    /* border: 2px solid red; */
+    width: 25%;
+    align-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    height: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.card{
+    /* border: 2px solid orange; */
+    width: 21%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 8px 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-size: 12px;
+}
+.carder{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.imag{
+    display: block;
+   margin: auto;
+}
+.rev{
+    font-size: 10px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 7px;
+}
+.desc{
+    font-size: 12px;
+}
+.h2{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flexbox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    margin-top:30px;
+}
+.guide{
+    
+}
