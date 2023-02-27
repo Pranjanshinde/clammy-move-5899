@@ -593,17 +593,6 @@
       "company": "B Fit USA",
       "quantity": "1 Pcs",
       "qty": 1
-    },
-    {
-      "title": "dsggdsgsggs",
-      "price": "1235",
-      "image": "https://img1.hkrtcdn.com/24454/prd_2445300_o.jpg",
-      "category": "afsaffaf",
-      "desc": "asfaffafafasfas",
-      "company": "asfafasfasfasfasfsafsa",
-      "quantity": "1kg",
-      "qty": 1,
-      "id": 56
     }
   ],
   "cart": [
@@ -624,12 +613,28 @@
       "id": 5
     },
     {
-      "title": "Yogabars Multigrain Energy Bars, 10 bar(s), Chocolate Brownie",
-      "image": "https://img2.hkrtcdn.com/4438/prd_443791-Yogabars-100-Natural-Energy-Bar-10-bars-Chocolate-Brownie_o.jpg",
+      "title": "MuscleBlaze Biozyme Iso-Zero, 2 kg (4.4 lb), Low Carb Ice Cream Chocolate",
+      "image": "https://img1.hkrtcdn.com/24454/prd_2445300_o.jpg",
       "qty": 1,
-      "price": 359,
-      "category": "Energy Bars",
+      "price": 6299,
+      "category": "Whey Protein Isolate",
+      "id": 6
+    },
+    {
+      "title": "GNC Pro Performance Power Protein, 1.82 kg (4 lb), Double Rich Chocolate + FREE Patchauli Unisex Perfume by Bella Vita Luxury",
+      "image": "https://img1.hkrtcdn.com/22238/prd_2223760_o.jpg",
+      "qty": 1,
+      "price": 3999,
+      "category": "Whey Protein Isolate",
       "id": 7
+    },
+    {
+      "title": "Neuherbs Deep Sea Fish Oil, 60 softgels",
+      "image": "https://img3.hkrtcdn.com/22246/prd_2224522-Neuherbs-Deep-Sea-Fish-Oil-60-softgels_o.jpg",
+      "qty": 1,
+      "price": 749,
+      "category": "Fish Oil",
+      "id": 8
     }
   ]
 }
