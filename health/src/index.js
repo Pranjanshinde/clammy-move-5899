@@ -4,11 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-
+import Cartcontextprovider from "./Cartcontext";
+import Authcontextprovider from "./Authcontext";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <Authcontextprovider>
+  <Cartcontextprovider>
     <App />
+    </Cartcontextprovider>
+    </Authcontextprovider>
     </BrowserRouter>
 );
 

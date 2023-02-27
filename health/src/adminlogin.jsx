@@ -19,17 +19,22 @@ import {
 import "./Login.css";
 import {Authcontext} from "./Authcontext";
 import { useContext } from 'react';
-import Footer from "./footer1.jsx";
-function Login(){
-const {isauth,Login1}=useContext(Authcontext);
+import { useNavigate } from 'react-router-dom';
+function ALogin(){
+const navigate=useNavigate();
 
+function Admin1(){
+  navigate("/admin");
+}
 
 function Addaccount(){
     alert("Account Created Suceessfully");
 }
     return(
         <>
+        <h1 style={{textAlign:"center"}}>Admin Login</h1>
         <div id='split'>
+          
         <div id='one'>
     <Container maxW="lg" py={{ base: '12', md: '24' }} px={{ base: '0', sm: '8' }}>
       <Stack spacing="8">
@@ -73,7 +78,7 @@ function Addaccount(){
             
               
             </HStack>
-            <Button color="white" backgroundColor="teal" border="2px solid teal" width="95%" height="48px" margin="auto" fontSize="17px" marginLeft="10px" borderRadius="7px" display="block" onClick={Login1} isDisabled={isauth==true} >
+            <Button color="white" backgroundColor="teal" border="2px solid teal" width="95%" height="48px" margin="auto" fontSize="17px" marginLeft="10px" borderRadius="7px" display="block" onClick={Admin1}  >
     Login
   </Button>
             <Box spacing="6" display="flex" justifyContent="space-between" alignContent="center" >
@@ -159,9 +164,8 @@ function Addaccount(){
     </div>
     
     </div>
-    <Footer/>
         </>
     )
 }
 
-export default Login;
+export default ALogin;

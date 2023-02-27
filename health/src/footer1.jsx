@@ -1,5 +1,5 @@
 import { Box, Heading, Flex, List, ListItem, Link, Text } from '@chakra-ui/react';
-
+import { NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <Box
@@ -9,6 +9,7 @@ const Footer = () => {
       borderColor="gray.300"
       py="2.5rem"
       fontSize="0.875rem"
+      marginTop="30px"
     >
       <Box
         maxW="64rem"
@@ -52,7 +53,7 @@ const Footer = () => {
             </Heading>
             <List lineHeight="2">
               <LinkItem text="Why Host" />
-              <LinkItem text="Hospitality" />
+              <NavLink to="/alogin"><LinkItem text="Admin" /></NavLink>
               <LinkItem text="Responsible Hosting" />
               <LinkItem text="Community Center" />
               <LinkItem text="Host an Experience" isTag={true} tagText="New" />

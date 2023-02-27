@@ -1,0 +1,18 @@
+#main{
+    border:2px solid green;
+    width: 90%;
+    margin:auto;
+}
+.one{
+    width: 70%;
+    margin:auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+.two{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
